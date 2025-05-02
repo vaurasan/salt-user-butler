@@ -1,4 +1,5 @@
 # salt-user-butler
+
 Module for managing users and groups with saltstack
 
 
@@ -6,16 +7,17 @@ Module for managing users and groups with saltstack
 
 
 
+Comes with a template of users and groups
 
-### Install:
+### Clone:
+- You will need to clone this repository to your **/srv/salt** directory
 ```bash
-git clone https://github.com/vaurasan/salt-user-butler.git
+git clone https://github.com/vaurasan/salt-user-butler.git /srv/salt
 ```
-If you cloned the repository to /srv, the path would now be /srv/salt-user-butler
 
 ### Usage:
 
-- **Create** users, install apache2 on minions:
+- **Ensure** certain users and groups exists, install apache2 if not already installed and make sure it is running (idempotent):
 ```bash
 sudo salt '*' state.apply users
 ```
@@ -31,3 +33,14 @@ sudo salt '*' state.apply web-groups
 ```bash
 sudo salt '*' state.apply web-users
 ```
+---
+
+Tested with
+- Windows 11 Pro 24H2
+- Oracle VirtualBox Version 7.1.4 r165100 (Qt6.5.3) - Debian 12 GNU/Linux (bookworm)
+- Vagrant 2.4.3
+- salt 3007.1 (Chlorine)
+
+---
+
+Made by: **Santeri Vauramo** / <em>vaurasan</em> 2025
