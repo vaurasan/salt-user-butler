@@ -2,7 +2,7 @@
 
 Module for managing users and groups with saltstack
 
-
+![cover](.gitignore/salt-user-butler.png)
 
 
 
