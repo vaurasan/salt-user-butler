@@ -1,16 +1,18 @@
 # salt-user-butler
 
-Module for managing users and groups with saltstack
+##### - Module for standardized user and group managing with saltstack
+
+##### - Comes with a template of users and groups
 
 ![cover](.gitignore/salt-user-butler.png)
 
 
 
 
-Comes with a template of users and groups
+
 
 ### Clone:
-- You will need to clone this repository to your **/srv/salt** directory
+- You will need to clone this repository to your **/srv/salt** directory to make it work
 ```bash
 git clone https://github.com/vaurasan/salt-user-butler.git /srv/salt
 ```
