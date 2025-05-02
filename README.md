@@ -4,12 +4,11 @@
 
 ##### - Comes with a template of users and groups
 
+##### - Fast usage
+
+##### - One truth
+
 ![cover](.gitignore/salt-user-butler.png)
-
-
-
-
-
 
 ### Clone:
 - You will need to clone this repository to your **/srv/salt** directory to make it work
