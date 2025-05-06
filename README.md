@@ -11,9 +11,9 @@
 ![cover](.gitignore/salt-user-butler.png)
 
 ### Clone:
-- You will need to clone this repository to your **/srv/salt** directory to make it work
+- Clone this repository to your **/srv/salt** directory to make it work
 ```bash
-git clone https://github.com/vaurasan/salt-user-butler.git /srv/salt
+sudo git clone https://github.com/vaurasan/salt-user-butler.git /srv/salt
 ```
 
 ### Usage:
