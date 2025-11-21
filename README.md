@@ -44,4 +44,6 @@ Tested with
 
 ---
 
+Part of [Palvelinten Hallinta](https://github.com/vaurasan/courses/tree/main/palvelinten-hallinta) course 2025.
+
 Made by: **Santeri Vauramo** / <em>vaurasan</em> 2025
